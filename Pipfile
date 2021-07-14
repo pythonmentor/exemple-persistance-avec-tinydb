@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tinydb = "*"
+requests = "*"
+
+[dev-packages]
+docformatter = "*"
+isort = "*"
+black = "==21.6b0"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
